@@ -1,10 +1,11 @@
 import React from "react";
-import { FaPalette, FaReact, FaCode } from "react-icons/fa";
+import { FaAngular, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiJavascript, SiTypescript, SiTailwindcss } from "react-icons/si";
 
-const BOOTSTRAP_FOR_SKILL_ICON = "text-4xl mx-auto inline-block";
+const iconsClass = "text-4xl mx-auto inline-block";
 const data = {
   name: "Fernando de la Oliva",
-  title: "Front-End Developer / Sysadmin",
+  title: "Front-End Developer / SysAdmin",
   social: {
     github: "https://github.com/fernandoliva",
     linkedin: "https://www.linkedin.com/in/fernandoliva/",
@@ -16,16 +17,28 @@ const data = {
   },
   skills: [
     {
-      skillName: "Frontend",
-      skillIcon: <FaCode className={BOOTSTRAP_FOR_SKILL_ICON} />,
+      skillName: "React",
+      skillIcon: <FaReact className={iconsClass} />,
     },
     {
-      skillName: "Design/UX",
-      skillIcon: <FaPalette className={BOOTSTRAP_FOR_SKILL_ICON} />,
+      skillName: "Angular",
+      skillIcon: <FaAngular className={iconsClass} />,
     },
     {
-      skillName: "ReactJS",
-      skillIcon: <FaReact className={BOOTSTRAP_FOR_SKILL_ICON} />,
+      skillName: "NodeJS / ExpressJS",
+      skillIcon: <FaNodeJs className={iconsClass} />,
+    },
+    {
+      skillName: "Javascript",
+      skillIcon: <SiJavascript className={iconsClass} />,
+    },
+    {
+      skillName: "TypeScript",
+      skillIcon: <SiTypescript className={iconsClass} />,
+    },
+    {
+      skillName: "Tailwind CSS",
+      skillIcon: <SiTailwindcss className={iconsClass} />,
     },
   ],
   projects: [
