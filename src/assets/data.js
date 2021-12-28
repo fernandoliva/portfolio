@@ -1,6 +1,6 @@
 import React from "react";
 import { FaAngular, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiTailwindcss } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiTailwindcss, SiPhp, SiSymfony,SiWordpress } from "react-icons/si";
 
 const iconsClass = "text-4xl mx-auto inline-block";
 const data = {
@@ -19,26 +19,47 @@ const data = {
     {
       skillName: "React",
       skillIcon: <FaReact className={iconsClass} />,
+      color: "#61dafb"
     },
     {
       skillName: "Angular",
       skillIcon: <FaAngular className={iconsClass} />,
+      color: "#dd0031"
     },
     {
-      skillName: "NodeJS / ExpressJS",
+      skillName: "NodeJS",
       skillIcon: <FaNodeJs className={iconsClass} />,
+      color: "#339933"
     },
     {
       skillName: "Javascript",
       skillIcon: <SiJavascript className={iconsClass} />,
+      color: "#f7df1e"
     },
     {
       skillName: "TypeScript",
       skillIcon: <SiTypescript className={iconsClass} />,
+      color: "#007acc"
     },
     {
       skillName: "Tailwind CSS",
       skillIcon: <SiTailwindcss className={iconsClass} />,
+      color: "#2979ff"
+    },
+    {
+      skillName: "PHP",
+      skillIcon: <SiPhp className={iconsClass} />,
+      color: "#4F5D95"
+    },
+    {
+      skillName: "Symfony",
+      skillIcon: <SiSymfony className={iconsClass} />,
+      color: "#006400"
+    },
+    {
+      skillName: "Wordpress",
+      skillIcon: <SiWordpress className={iconsClass} />,
+      color: "#0073aa"
     },
   ],
   projects: [
