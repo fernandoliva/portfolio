@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SkillCard from "./SkillCard";
+
 
 function Skills({ skills }) {
   return (
