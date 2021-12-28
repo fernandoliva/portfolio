@@ -64,26 +64,69 @@ const data = {
   ],
   projects: [
     {
-      title: "React tailwind portfolio",
-      description: "👨‍🎨 An open-source portfolio template built with React and Tailwind.",
+      title: "Project Lucky",
+      description: "🐶 React application based on animal adoption.",
       tags: [
-        "template",
-        "portfolio",
         "reactjs",
-        "tailwindcss"
+        "scss",
+        "router-dom",
+        "axios"
       ],
-      link: "https://github.com/braydentw/react-tailwind-portfolio"
+      link: "https://github.com/fernandoliva/project-lucky"
     },
     {
-      title: "My personal website",
-      description: "⚡ My portfolio built with NextJS and TailwindCSS.",
+      title: "Project Lucky Backend",
+      description: "🐱 Backend Code of Project Lucky.",
+      tags: [
+        "nodejs",
+        "expressjs",
+        "ECMAscript 6",
+        "API"
+      ],
+      link: "https://github.com/fernandoliva/project-lucky-back"
+    },
+    {
+      title: "Real State App",
+      description: "🏠 web page in php based on real estate.",
       tags: [
         "website",
-        "portfolio",
-        "nextjs",
-        "tailwindcss"
+        "php",
+        "scss",
+        "ECMAScript 6"
       ],
-      link: "https://github.com/braydentW/braydentw"
+      link: "https://github.com/fernandoliva/appInmobiliaria"
+    },
+    {
+      title: "Rick and Morty Angular App",
+      description: "👽 Rick and Morty based app on Angular.",
+      tags: [
+        "app",
+        "angular",
+        "scss",
+        "Typescript"
+      ],
+      link: "https://github.com/fernandoliva/rickandmorty-angular"
+    },
+    {
+      title: "Barber Shop App",
+      description: "⚡ Barber Shop based app on php with cart.",
+      tags: [
+        "website",
+        "php",
+        "scss",
+        "ECMAScript 6"
+      ],
+      link: "https://github.com/fernandoliva/appSalon"
+    },
+    {
+      title: "Portfolio",
+      description: "⚡ Portfolio page based on react and tailwind.",
+      tags: [
+        "website",
+        "react",
+        "tailwindCSS"
+      ],
+      link: "https://github.com/fernandoliva/appSalon"
     }
   ]
 };
