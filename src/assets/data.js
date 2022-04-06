@@ -72,7 +72,8 @@ const data = {
         "router-dom",
         "axios"
       ],
-      link: "https://github.com/fernandoliva/project-lucky"
+      link: "https://github.com/fernandoliva/project-lucky",
+      live: "https://project-lucky.netlify.app/"
     },
     {
       title: "Project Lucky Backend",
@@ -94,7 +95,8 @@ const data = {
         "scss",
         "ECMAScript 6"
       ],
-      link: "https://github.com/fernandoliva/appInmobiliaria"
+      link: "https://github.com/fernandoliva/appInmobiliaria",
+      live: "http://appinmo.fernandoliva.es/"
     },
     {
       title: "Rick and Morty Angular App",
@@ -105,7 +107,8 @@ const data = {
         "scss",
         "Typescript"
       ],
-      link: "https://github.com/fernandoliva/rickandmorty-angular"
+      link: "https://github.com/fernandoliva/rickandmorty-angular",
+      live: "http://rickandmortyapi.fernandoliva.es/"
     },
     {
       title: "Barber Shop App",
@@ -116,7 +119,8 @@ const data = {
         "scss",
         "ECMAScript 6"
       ],
-      link: "https://github.com/fernandoliva/appSalon"
+      link: "https://github.com/fernandoliva/appSalon",
+      live: "http://appsalon.fernandoliva.es/"
     },
     {
       title: "Portfolio",
@@ -126,7 +130,8 @@ const data = {
         "react",
         "tailwindCSS"
       ],
-      link: "https://github.com/fernandoliva/appSalon"
+      link: "https://github.com/fernandoliva/portfolio",
+      live: "https://portfolio.fernandoliva.es/"
     }
   ]
 };
