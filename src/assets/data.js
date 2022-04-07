@@ -13,7 +13,7 @@ const data = {
   },
   about: {
     title: "Sobre mi",
-    description: ["¡Hola! Me llamo Fernando, me apasiona el mundo IT y me encanta el Front end 💻","Tengo ya varios años de experiencia en el sector como Administrador de sistemas y Desarrollador Front end.","Actualmente creciendo y especializándome en MERN STACK aunque no me cierro a otras tecnologías como Angular o Vue 👨","Me encanta trabajar en equipo y valoro mucho la experiencia y los conocimientos que me puedan aportar las personas con las que trabajo, durante estos años he desarrollado aptitudes como ser resolutivo, trabajar bien bajo presión y tener capacidades de autogestión 📝"],
+    description: ["¡Hola! Me llamo Fernando, me apasiona el mundo IT y me encanta el Front end 💻","Tengo ya varios años de experiencia en el sector como Administrador de sistemas y Desarrollador Front end.","Actualmente creciendo y especializándome en MERN STACK aunque no me cierro a otras tecnologías como Angular o Vue 👨","Me encanta trabajar en equipo y valoro mucho la experiencia y los conocimientos que me puedan aportar las personas con las que trabajo.📝"],
   },
   skills: [
     {
