@@ -86,17 +86,17 @@ const data = {
       ],
       link: "https://github.com/fernandoliva/project-lucky-back"
     },
-    // {
-    //   title: "Real State App",
-    //   description: "🏠 web page in php based on real estate.",
-    //   tags: [
-    //     "website",
-    //     "php",
-    //     "scss",
-    //     "ECMAScript 6"
-    //   ],
-    //   link: "https://github.com/fernandoliva/appInmobiliaria"
-    // },
+    {
+      title: "Real State App",
+      description: "🏠 web page in php based on real estate.",
+      tags: [
+        "website",
+        "php",
+        "scss",
+        "ECMAScript 6"
+      ],
+      link: "https://github.com/fernandoliva/appInmobiliaria"
+    },
     {
       title: "Rick and Morty Angular App",
       description: "👽 Rick and Morty based app on Angular.",
@@ -109,17 +109,17 @@ const data = {
       link: "https://github.com/fernandoliva/rickandmorty-angular",
       live: "http://rickandmortyapi.fernandoliva.es/"
     },
-    // {
-    //   title: "Barber Shop App",
-    //   description: "⚡ Barber Shop based app on php with cart.",
-    //   tags: [
-    //     "website",
-    //     "php",
-    //     "scss",
-    //     "ECMAScript 6"
-    //   ],
-    //   link: "https://github.com/fernandoliva/appSalon"
-    // },
+    {
+      title: "Barber Shop App",
+      description: "⚡ Barber Shop based app on php with cart.",
+      tags: [
+        "website",
+        "php",
+        "scss",
+        "ECMAScript 6"
+      ],
+      link: "https://github.com/fernandoliva/appSalon"
+    },
     {
       title: "Portfolio",
       description: "⚡ Portfolio page based on react and tailwind.",
@@ -128,8 +128,8 @@ const data = {
         "react",
         "tailwindCSS"
       ]
-      // ,
-      // link: "https://github.com/fernandoliva/appSalon"
+      ,
+      link: "https://github.com/fernandoliva/portfolio"
     }
   ]
 };
