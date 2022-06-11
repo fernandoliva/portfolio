@@ -19193,7 +19193,7 @@ video {
 }
 
 .animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation: pulse 1.5s cubic-bezier(0.4, 0.6, 0.6, 1) infinite;
 }
 
 .animate-bounce {
@@ -37786,7 +37786,7 @@ video {
   }
 
   .sm\:animate-pulse {
-    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    animation: pulse 1.5s cubic-bezier(0.4, 0.6, 0.6, 1) infinite;
   }
 
   .sm\:animate-bounce {
@@ -56380,7 +56380,7 @@ video {
   }
 
   .md\:animate-pulse {
-    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    animation: pulse 1.5s cubic-bezier(0.4, 0.6, 0.6, 1) infinite;
   }
 
   .md\:animate-bounce {
@@ -74974,7 +74974,7 @@ video {
   }
 
   .lg\:animate-pulse {
-    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    animation: pulse 1.5s cubic-bezier(0.4, 0.6, 0.6, 1) infinite;
   }
 
   .lg\:animate-bounce {
@@ -93568,7 +93568,7 @@ video {
   }
 
   .xl\:animate-pulse {
-    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    animation: pulse 1.5s cubic-bezier(0.4, 0.6, 0.6, 1) infinite;
   }
 
   .xl\:animate-bounce {
