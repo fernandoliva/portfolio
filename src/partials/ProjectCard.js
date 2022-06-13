@@ -4,7 +4,7 @@ import { GoBroadcast } from "react-icons/go";
 
 const ProjectCard = ({ project: { title, description, tags, link, live } }) => {
   return (
-    <div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300">
+    <div className="max-w-3xl w-100 sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300">
         <div className="flex flex-row items-center justify-between">
           <a href={link} target="_blank" rel="noopener noreferrer mx-2">
             <h1 className="text-lg md:text-xl font-bold pb-2">{title}</h1>
@@ -13,14 +13,14 @@ const ProjectCard = ({ project: { title, description, tags, link, live } }) => {
             {link && (
               <a href={link}>
                 <h1 className="text-2xl text-center font-bold">
-                  <FaGithub className="inline align-baseline mx-2" />
+                  <FaGithub className="inline align-baseline mx-2" loading="lazy" />
                 </h1>
               </a>
             )}
             {live && (
               <a href={live}>
                 <h1 className="text-2xl text-center font-bold animate-pulse text-green-800">
-                  <GoBroadcast className="inline align-baseline" />
+                  <GoBroadcast className="inline align-baseline" loading="lazy" />
                 </h1>
               </a>
             )}

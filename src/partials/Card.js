@@ -13,6 +13,7 @@ function Card({ name, title, social: { github, linkedin, email } }) {
             className="w-32 mx-auto shadow-xl rounded-full"
             src={profile}
             alt="Profile face"
+            loading="lazy"
           />
         </div>
         <div className="text-center mt-5">
@@ -27,21 +28,21 @@ function Card({ name, title, social: { github, linkedin, email } }) {
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300"
               href={github}
             >
-              <FaGithub />
+              <FaGithub loading="lazy" />
               <span className="sr-only">Github</span>
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
               href={linkedin}
             >
-              <FaLinkedin />
+              <FaLinkedin loading="lazy" />
               <span className="sr-only">Linkedin</span>
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-teal-500 rounded-full hover:text-white transition-colors duration-300"
               href={"https://mail.google.com/mail/?view=cm&fs=1&to=" + email}
             >
-              <FaRegEnvelope />
+              <FaRegEnvelope loading="lazy" />
               <span className="sr-only">Email</span>
             </a>
           </div>
