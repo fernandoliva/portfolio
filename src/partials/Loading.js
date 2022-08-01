@@ -4,26 +4,26 @@ function Loading() {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-300">
       <div className="loading__spinner">
-        <div class="boxes">
-          <div class="box">
+        <div className="boxes">
+          <div className="box">
             <div></div>
             <div></div>
             <div></div>
             <div></div>
           </div>
-          <div class="box">
+          <div className="box">
             <div></div>
             <div></div>
             <div></div>
             <div></div>
           </div>
-          <div class="box">
+          <div className="box">
             <div></div>
             <div></div>
             <div></div>
             <div></div>
           </div>
-          <div class="box">
+          <div className="box">
             <div></div>
             <div></div>
             <div></div>
