@@ -6,16 +6,14 @@ import { FaRegEnvelope } from "react-icons/fa";
 
 function Card({ name, title, social: { github, linkedin, email } }) {
   return (
-    <div className="w-full">
+    <div className="w-full" data-aos="fade-down">
       <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
-        <div className="">
-          <img
+        <img
             className="w-32 mx-auto shadow-xl rounded-full"
             src={profile}
             alt="Profile face"
             loading="lazy"
           />
-        </div>
         <div className="text-center mt-5">
           <p className="text-xl sm:text-2xl font-semibold text-gray-900">
             {name}

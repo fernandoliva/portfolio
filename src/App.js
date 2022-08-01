@@ -14,6 +14,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       once: true,
+      duration: 1800,
     });
   });
 
@@ -30,17 +31,11 @@ function App() {
     <div className="App">
       {loading ? <Loading /> :
         <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-100">
-          <div data-aos="fade-down" data-aos-duration="800">
-            <Card name={data.name} title={data.title} social={data.social} />
-          </div>
-          <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="400" >
-            <About title={data.about.title} description={data.about.description} />
-          </div>
-          <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">
-            <Skills skills={data.skills} />
-            <Projects projects={data.projects} />
-            <Footer />
-          </div>
+          <Card name={data.name} title={data.title} social={data.social} />
+          <About title={data.about.title} description={data.about.description} />         
+          <Skills skills={data.skills} />
+          <Projects projects={data.projects} />
+          <Footer />
         </div>
       }
     </div>
