@@ -106,8 +106,8 @@ const data = {
         "scss",
         "Typescript"
       ],
-      link: "https://github.com/fernandoliva/rickandmorty-angular",
-      live: "http://rickandmortyapi.fernandoliva.es/"
+      link: "https://github.com/fernandoliva/rickandmorty-angular"
+      // live: "http://rickandmortyapi.fernandoliva.es/"
     },
     {
       title: "Barber Shop App",
